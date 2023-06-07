@@ -56,9 +56,9 @@ struct pallas_t : public pallas_mont {
 # endif
 #endif
 
-#ifndef __CUDA_ARCH__   // host-side field types
-# include <pasta_t.hpp>
-#endif
+// #ifndef __CUDA_ARCH__   // host-side field types
+// # include <pasta_t.hpp>
+// #endif
 
 #if defined(FEATURE_PALLAS)
 typedef pallas_t fp_t;
