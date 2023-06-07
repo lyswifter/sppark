@@ -7,7 +7,7 @@ repository = "https://github.com/supranational/sppark"
 categories = ["cryptography"]
 keywords = ["crypto", "zero-knowledge", "cuda"]
 license = "Apache-2.0"
-links = "sppark"
+# links = "sppark"
 include = [
     "/Cargo.toml",
     "/build.rs",
